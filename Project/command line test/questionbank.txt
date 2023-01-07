@@ -1,0 +1,50 @@
+1. Command used to determine the path of an executable file is
+a) which
+b) where
+c) wexec
+d) what
+2. Command used to count number of character in a file is
+a) grep
+b) wc
+c) count
+d) cut
+3. Which of these commands could you use to show one page of output at a time?
+a) less
+b) sed
+c) pause
+d) grep
+4. Which commands will give you information about how much disk space each file in the current directory uses?
+a) ls -l
+b) ls -la
+c) du
+d) ls -a
+5. Which of the following command output contains userid?
+a) ls
+b) help
+c) date
+d) ls –l
+6. Which command is used to display all the files including hidden files in your current and its subdirectories ?
+a) ls –aR
+b) ls –a
+c) ls –R
+d) ls –l
+7. Which of the following commands can be used to copy files across systems?
+a) ssh
+b) telnet
+c) rsh
+d) ftp
+8. pwd command displays
+a) user password
+b) password file content
+c) present working directory
+d) none of the mentioned
+9. Which of the following commands can be used to change default permissions for files and directories at the time of creation
+a) Chmod
+b) Chown
+c) Umask
+d) Chgrp
+10. Which tar command option is used to list the files in a tape archive format?
+a) cvf
+b) tvf
+c) xvf
+d) ovf
