@@ -8,19 +8,19 @@ Sample Input  :
 Sample Output :
 doc
 
-#initiate 1st loop for row
+#initiate 1st loop for row with increamenting
 for i in `seq 8`
 do
 
 #initilize k w.r.t i
     k=$i
 
-#initiate 2nd loop for column
+#initiate 2nd loop for column with increamenting
     for j in `seq 8`
     do
-
-#check condition for white block if reminder is 1 print whilte block
-        if [ $(($k%2)) -eq 1 ]
+         t=$(($k%2))
+#check condition for white box if reminder is 1 print whilte box
+        if [ $t -eq 1 ]
         then
             echo -e -n "\e[47m" " "
 
@@ -34,14 +34,15 @@ do
 #increment k        
             k=$(($k+1))  
 
-#terminate 2nd loop   
+
+#terminate 2nd loop
     done
 
-#jump to next line    
-    echo
-
-#terminate 1st loop
-done
-
 #make the color normal after 8 column
-echo -e -n "\e[1m" " "
+echo -e -n "\e[0m" " "
+
+#jump to next line    
+echo
+    
+#terminate 1st loop   
+done
